@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+
+<body>
+    <!-- titulo -->
+    <div>
+
+       <h1>Cadastro</h1>
+
+    </div>
+    
+  
+    <form>
+
+         <fieldset>
+
+            <div>
+                <!-- nome e Sobrenome -->
+                <label>
+                    <strong>Nome</strong>
+                </label>
+                <input type="text" name="nome" id="nome">
+
+            </div>
+
+            <div>
+                 <label>
+                    <strong>Sobrenome</strong>
+                </label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
+            
+            </div>
+        </fieldset>
+
+
+         <fieldset>
+            <div>
+                <!-- email e senha -->
+                <label>
+                    <strong>Email</strong>
+                </label>
+                <input type="email" name="Email" id="Email">
+            </div>
+
+            <div>
+                <label>
+                    <strong>Senha</strong>
+                </label>
+                <input type="password" name="Senha" id="Senha">
+            </div>
+        </fieldset>
+
+        <div>
+            <div>
+                <!-- data nascimento -->
+                <label>
+                    <strong>Date de nascimento</strong>
+                </label>
+                <input type="date" name="nasc" id="nasc">
+            </div>
+            <!-- curso -->
+            <label> 
+                <strong>Curso</strong>
+            </label>
+            <label>
+                <input type="radio" name="curso" id="front-end">front-end
+            </label>
+            
+            <label>
+                <input type="radio" name="curso" id="back-end">back-end
+            </label>
+            
+            <label>
+                <input type="radio" name="curso" id="full-stack">full-stack
+            </label>
+            
+        </div>
+
+        <div>
+            <!-- Turno -->
+            <label>
+                <strong>Turno</strong>
+            </label>
+            <select>
+                <option selected disabled>Selecione</option>
+                <option>Manha</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+        </div>
+        <!-- botão -->
+        <button type="submit" onsubmit="">Cadastrar</button>
+    </form>
+
+</body>
+
+</html>
