@@ -11,16 +11,16 @@
     <!-- titulo -->
     <div>
 
-       <h1>Cadastro</h1>
+       <h1 id="titulo">Cadastro</h1>
 
     </div>
     
   
     <form>
 
-         <fieldset>
+         <fieldset class="grupo">
 
-            <div>
+            <div class="campo">
                 <!-- nome e Sobrenome -->
                 <label>
                     <strong>Nome</strong>
@@ -29,7 +29,7 @@
 
             </div>
 
-            <div>
+            <div class="campo">
                  <label>
                     <strong>Sobrenome</strong>
                 </label>
@@ -39,8 +39,8 @@
         </fieldset>
 
 
-         <fieldset>
-            <div>
+         <fieldset class="grupo">
+            <div class="campo">
                 <!-- email e senha -->
                 <label>
                     <strong>Email</strong>
@@ -48,7 +48,7 @@
                 <input type="email" name="Email" id="Email">
             </div>
 
-            <div>
+            <div class="campo">
                 <label>
                     <strong>Senha</strong>
                 </label>
@@ -56,8 +56,8 @@
             </div>
         </fieldset>
 
-        <div>
-            <div>
+        <div class="campo">
+            <div class="campo">
                 <!-- data nascimento -->
                 <label>
                     <strong>Date de nascimento</strong>
@@ -82,7 +82,7 @@
             
         </div>
 
-        <div>
+        <div class="campo">
             <!-- Turno -->
             <label>
                 <strong>Turno</strong>
@@ -95,7 +95,7 @@
             </select>
         </div>
         <!-- botão -->
-        <button type="submit" onsubmit="">Cadastrar</button>
+        <button class="botão" type="submit" onsubmit="">Cadastrar</button>
     </form>
 
 </body>
